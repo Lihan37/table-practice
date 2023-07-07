@@ -4,8 +4,103 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Search engine & feedback</title>
+    <link rel="stylesheet" href="images/favicon.png" type="image/x-icon">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css">
+    <link rel="stylesheet" href="nav.css">
+    <link rel="stylesheet" href="form.css">
 </head>
 <body>
+    <!--this is the header-->
+    <header>
+<nav class="navbar">
+    <div class="logo">
+        <a href="#">
+            <img src="images/logo2.png" alt="Logo">
+        </a>
+        </div>
+        <ul class="nav-links">
+            <li><a href="index.html">form</a></li>
+            <li><a href="feedback.html">feedback</a></li>
+            <li><a href="table.html">table</a></li>
+        </ul>
+        </nav>
+        </header>
+        <!--this is the main section-->
+        <main class="search">
+            <section class="search-container">
+                <hr>
+                <h2>Home Made Search Engine</h2> <br>
+                <div class="search-box">
+                    <label for="search-box">Search Your Image here:
+                        <input type="text" name="search-box" id="search">
+                        <button>Search</button>
+                    </label>
+                </div>
+                <div class="img">
+                    <img src="./images/search1.png" height="300px" alt="">
+                </div>
+    
+                <div class="anchor">
+                    <a href="https://google.com" target="_blank">For more click here...</a>
+                </div>
+            </section>
+    
+    <!--feedback section-->
+    <section class="Feedback container">
+        <div class="form">
+            <h2>Feedback form</h2>
+            <form action="none">
+                <label for="name"> 
+                    Name: <br>
+                    <input type="text" id="name">
+                </label> <br>
+                <label for="date">
+                    Date: <br>
+                    <input type="">
+
+                </label> <br>
+                <label for="comments"> comments: <br>
+                    <textarea name="" id="" cols="30" rows="8"></textarea>
+
+                </label>
+
+            </form>
+        </div>
+<!--footer section-->
+        <footer class="footer">
+            <div class="container">
+                <div class="row">
+                    <div class="col-md-4">
+                        <h3>About Us</h3>
+                        <p>We are a team of passionate developers who are dedicated to creating innovative and user-friendly websites.</p>
+                        <p>We believe that everyone should have access to the internet, and we are committed to making our websites accessible to everyone.</p>
+                    </div>
+                    <div class="col-md-4">
+                        <h3>Contact Us</h3>
+                        <p>Email: <a href="mailto:info@example.com">info@example.com</a></p>
+                        <p>Phone: +1 234 567 890</p>
+                        <p>Address: 123 Main Street, Anytown, CA 12345</p>
+                    </div>
+                    <div class="col-md-4">
+                        <h3>Follow Us</h3>
+                        <ul class="social-media">
+                            <li><a href="https://www.facebook.com/example"><i class="fab fa-facebook"></i></a></li>
+                            <li><a href="https://twitter.com/example"><i class="fab fa-twitter"></i></a></li>
+                            <li><a href="https://www.linkedin.com/company/example"><i class="fab fa-linkedin"></i></a></li>
+                            <li><a href="https://www.instagram.com/example"><i class="fab fa-instagram"></i></a></li>
+                        </ul>
+                    </div>
+                </div>
+    
+                <div class="copyright">
+                    &copy; Lihan &copy; . All rights reserved.
+                </div>
+            </div>
+        </footer>  
+    </section>
+    
+
+
     
 </body>
 </html>
